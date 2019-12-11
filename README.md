@@ -14,7 +14,8 @@ It currently only implements the Romme System for recent dates, meaning that it 
 Each function takes a single date object as parameter:
 * `year(date)` Get the year
 * `dayOfYear(date)` Get the n-day of the year (between 1 and 366)
-* `dayOfYearName(date)` Get the name of the day (often plants, animals, or tools associated with the season), in French (translation in english may come if someone is interested)
+* `dayOfYearNameFr(date)` Get the name of the day (often plants, animals, or tools associated with the season), in French 
+* `dayOfYearNameEn(date)` as above, in English
 * `month(date)` Get the n-month of the year (between 1 and 13, 13 being the complementary days alias the Sans-culottides days)
 * `monthName(date)` Get the name of the month
 * `dayOfMonth(date)` Get the n-day of the month (between 1 and 30)
